@@ -1,7 +1,12 @@
-import { createStore } from "redux";
+import { createStore, applyMiddleware, compose } from "redux";
+import thunk from "redux-thunk";
 import rootReducer from "./reducer";
 
 export default createStore(
   rootReducer,
-  {} // ganti pake initial state (kalau mau)
+  {}, // ganti pake initial state (kalau mau)
+  compose(
+    applyMiddleware(thunk),
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  )
 );
