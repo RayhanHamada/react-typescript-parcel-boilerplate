@@ -1,12 +1,12 @@
 # React-Typescript-Parcel-Boilerplate
 
 ## Clone
-clone only react boilerplate
+clone only react boilerplate (master branch)
 ```sh
 git clone https://github.com/RayhanHamada/react-typescript-parcel-boilerplate.git <your folder>
 ```
 
-clone react boilerplate + redux, react-redux, and redux thunk support
+clone react boilerplate + redux, react-redux, and redux thunk support (with-redux branch)
 ```sh
 git clone https://github.com/RayhanHamada/react-typescript-parcel-boilerplate.git --branch with-redux --single-branch <your folder>
 ```
