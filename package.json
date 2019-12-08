@@ -27,8 +27,14 @@
     "@types/react": "^16.9.11",
     "@types/react-dom": "^16.9.4",
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.2.1",
     "prettier": "^1.19.1",
     "sass": "^1.23.6",
     "typescript": "^3.7.2"
+  },
+
+  "staticFiles": {
+    "staticPath": "./assets",
+    "watcherGlob": "**"
   }
 }
